@@ -7,6 +7,10 @@ import tensorflow as tf
 
 
 app = FastAPI()
+origins = [
+    "http://localhost",
+    "http://localhost:3000",
+]
 
 MODEL = tf.keras.models.load_model(r"C:\Users\HP\Desktop\Tomato_model\1")
 CLASS_NAMES = ["Bacterial Spot", "Early Blight", "Late blight",
