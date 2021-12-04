@@ -60,7 +60,11 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: 'transparent !important',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
-    backgroundSize: 'cover'
+    backgroundSize: 'cover',
+    height: "600px",
+    width: "1200px",
+    marginTop: "10px",
+    marginBottom: "10px",
   },
   imageCard: {
     margin: "auto",
