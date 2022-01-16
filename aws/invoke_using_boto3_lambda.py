@@ -20,3 +20,16 @@ def lambda_handler(event, context):
     object_categories = ["Bacterial Spot", "Early Blight", "Late blight",
                "Leaf Mold", "Septoria leaf spot", "Spider mites", "Target Spot",
                "YellowLeaf Curl Virus", "Mosaic Virus", "Healthy"]
+
+return {
+'statusCode': 200,
+'isBase64Encoded':False,
+'body': f"class-{object_categories[index]}, confidence-{str(result[index])}"
+}
+
+except Exception as err:
+return {
+'statusCode': 400,
+'isBase64Encoded':False,
+'body': 'Call Failed {0}'.format(err)
+}
