@@ -11,7 +11,7 @@ The purpose of this project is to create a utility for classifying tomato plant 
 ### Model building
 * Tensorflow
 * CNN
-* Data augmenattion
+* Data augmentation
 * ImageDataGenerator
 
 ### Cloud & Deployment - aws
