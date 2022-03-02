@@ -6,6 +6,19 @@
 #### 4) Running the API
 #### 5) Using FastAPI
 
-The purpose of this project is to create a utility for classifying tomatao plant diseases. It can detect 7 types of disease with their predicted accuracy when picture drag and dropped to website. Mainly focus of this project was on building an accurate model deployment of model on AWS with help of sagemaker, lambda and api gateway  
+The purpose of this project is to create a utility for classifying tomato plant diseases. It can detect 7 types of disease with their predicted accuracy when picture drag and dropped to website. Mainly focus of this project was on building an accurate model deployment of model on AWS with help of sagemaker, lambda and api gateway  
 
-### Model building 
+### Model building
+* Tensorflow
+* CNN
+* Data augmenattion
+* ImageDataGenerator
+
+### Cloud & Deployment - aws
+* lambda 
+* Sagemaker 
+* API gateway
+
+### Forntend & Backend
+* FastAPI
+* Reactjs
