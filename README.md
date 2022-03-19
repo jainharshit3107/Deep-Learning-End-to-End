@@ -1,4 +1,4 @@
-<h2>Tomato Disease Clasification</h2>
+<h2>Tomato Disease Classification</h2>
 
 The purpose of this project was to create a utility for classifying tomato plant diseases. So it can detect 7 types of disease with their predicted accuracy, when picture drag and dropped to website. Mainly focus of this project was on building an accurate model and deployment of model on AWS with help of sagemaker, lambda and api gateway   
  <p align="center">
